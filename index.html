@@ -37,6 +37,31 @@
     <li><a href="books/ciel.html">... et le ciel t'aidera</a></li>
   </ul>
 
+<script>
+  const images = [
+    "bannieres/ciel_1.jpg",
+    "bannieres/ciel_2.jpg",
+    "bannieres/fugue_1.jpg",
+    "bannieres/fugue_2.jpg",
+    "bannieres/fugue_3.jpg",
+    "bannieres/MJ_1.jpg",
+    "bannieres/MJ_2.jpg",
+    "bannieres/MJ_3.jpg",
+    "bannieres/RD67_1.jpg",
+    "bannieres/RD67_2.jpg"
+  ];
+
+  function changeBanner() {
+    const randomIndex = Math.floor(Math.random() * images.length);
+    document.getElementById("banner-img").src = images[randomIndex];
+  }
+
+  // change every 4 seconds
+  setInterval(changeBanner, 4000);
+
+  // initial random image
+  changeBanner();
+</script>
 </body>
 
 
