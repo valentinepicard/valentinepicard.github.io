@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.main-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.book-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 200px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+a:hover {
+  text-decoration: underline;
+}
