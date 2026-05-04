@@ -69,6 +69,21 @@ a {
   transform: scale(1.2);
 }
 
+.socials {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.social-icons img {
+  width: 36px;
+  margin: 0 10px;
+}
+
+.email {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
 a:hover {
   text-decoration: underline;
 }
