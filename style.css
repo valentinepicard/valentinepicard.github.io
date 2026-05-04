@@ -4,6 +4,16 @@ body {
   margin: auto;
   padding: 20px;
   line-height: 1.6;
+  color: #FCAE1E; /* main text color */
+  background-color: #fffaf3; /* optional soft background */
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+a {
+  color: #d48806; /* slightly darker for readability */
 }
 
 h1, h2 {
