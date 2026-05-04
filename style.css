@@ -13,12 +13,9 @@ h1, h2 {
 }
 
 a {
-  color: #d48806; /* slightly darker for readability */
+  color: black; /* slightly darker for readability */
 }
 
-h1, h2 {
-  text-align: center;
-}
 
 .main-image {
   display: block;
