@@ -1,11 +1,13 @@
 body {
   font-family: Arial, sans-serif;
   font-size:1em;
-  margin: 0;
+  margin: 0 auto 20px auto;
+  width:50%;
   padding: 20px;
   line-height: 1.6;
   color: black; 
   background-color: #fffaf3;
+  
 }
 
 h1, h2 {
